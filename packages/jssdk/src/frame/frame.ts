@@ -65,8 +65,10 @@ export class AppFrame {
 	/**
 	 * Get the account address BX24 (https://name.bitrix24.com)
 	 */
+  // TODO custom
 	getTargetOrigin(): string {
-		return `${this.#protocol ? 'https' : 'http'}://${this.#domain}`
+		// return `${this.#protocol ? 'https' : 'http'}://${this.#domain}`
+		return `https://${this.#domain}`
 	}
 
 	/**
